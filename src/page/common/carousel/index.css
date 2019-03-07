@@ -1,0 +1,140 @@
+.fs{
+	position: relative;
+	min-width: 1100px;
+    background-color: #a7a17f;
+}
+.fs .gallery-top .swiper-wrapper .swiper-slide a{
+	display: block;	
+	background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+	height: 510px;
+}
+.fs .switch{
+	position: absolute;
+	z-index: 2;
+	margin-top: 5px;
+}
+.fs .switch .switch_an{
+	width: 147px;
+	height: 31px;
+	background-color: rgba(6, 6, 6, 0.28);
+	border-radius: 18px;
+}
+.fs .switch .switch_an .switch_left{
+	height: 30px;
+	line-height: 30px;
+	padding: 8px 23px;
+	margin-left: 1px;
+	border-radius: 18px;
+	color: #fff;
+	font-size: 12px;
+}
+.fs .switch .switch_an .switch_right{
+	height: 30px;
+	line-height: 30px;
+	padding: 8px 23px;
+	margin-right: 1px;
+	border-radius: 18px;
+	color: #fff;
+	font-size: 12px;
+}
+.switchcolor{
+	background-color: #b99261;
+}
+.marginleft{
+	margin-left: 165px;
+}
+.fs .side{
+	position: absolute;
+	left: 0;
+	right: 0;
+	/*z-index: 2;*/
+	width: 1100px;
+	/*height: 510px;*/
+	margin: auto;
+}
+.fs .side_nav{
+	float: left;
+	display: none;
+	width: 150px;
+	height: 244px;
+	background-color: #b99261;
+}
+.fs .side_nav ul{
+	padding-top: 10px;
+}
+.fs .side_nav ul a{
+	color: #fff;
+}
+.fs .side_nav ul li{
+	font-size: 14px;
+	padding: 12px 14px;
+}
+.fs .side_nav ul li:hover{
+	background-color: #ccc;
+}
+.fs .side_nav ul li i{
+	float: right;
+}
+.side .menu_con{
+	position: absolute;
+	z-index: 2;
+	margin-left: 150px;
+	width: 930px;
+	height: 245px;
+	background-color: #118850;
+}
+.none {
+	display: none;
+}
+.two_menu .menu_con_list{
+	float: left;
+	margin: 15px 0 0 15px;
+	font-size: 14px;
+}
+.two_menu .menu_con_list ul{
+	margin-top: 7px;
+}
+.two_menu .menu_con_list ul li{
+	line-height: 24px;
+}
+.menu_con .menu_con_list .list_top{
+	width: 180px;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+.menu_con .menu_con_list .list_top span{
+	display: block;
+	padding-top: 11px;
+}
+.gallery-thumbs{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	margin:auto;
+	width: 732px;
+	height: 60px;
+}
+
+
+.swiper-container-x{
+	width: 920px;
+    right: -69px;
+}
+.swiper-wrapper-x{
+	width: 435px;
+}
+.swiper-slide-x{
+	width: 88px  !important;
+}
+
+
+.gallery-thumbs .swiper-slide {
+    height: 100%;
+    opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+}

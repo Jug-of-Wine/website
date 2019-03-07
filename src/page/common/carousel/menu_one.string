@@ -1,0 +1,5 @@
+<ul class="side_nav_ul">
+	{{#navList}}
+    <li class="side_nav_li" data-id="{{tid}}"><a class="side_nav_a" href="{{href}}">{{name}}</a><i>></i></li>
+	{{/navList}}
+</ul>

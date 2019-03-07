@@ -1,0 +1,16 @@
+{{#navtwoList}}
+<div id="{{tmid}}" class="menu_mian clearfix none">
+    {{#list}}
+    <div class="menu_con_list">
+        <div class="list_top">
+            <span>{{title}}</span>
+        </div>
+         <ul>
+            {{#content}}
+            <li><a href="{{href}}">{{name}}</a></li>
+            {{/content}}
+        </ul>
+    </div>
+    {{/list}}
+</div>
+{{/navtwoList}}

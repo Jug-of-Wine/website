@@ -72,6 +72,17 @@ var config = {
                         }
                     }
                 ]
+            },
+            // 模板文件的处理
+            {
+                test: /\.string$/,
+                use: {
+                    loader: 'html-loader',
+                    options: {
+                        minimize : true,
+                        removeAttributeQuotes : false
+                    }
+                }
             }
 		]
 	},
