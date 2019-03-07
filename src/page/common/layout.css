@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 1100px;
+    background: #f5f5f5;
+    font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: none;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+/* 超链样式 */
+a{
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color: #e80012;
+}
+
+/* 定宽布局 */
+.w{
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/*垂直外边距重叠和高度塌陷处理*/
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}

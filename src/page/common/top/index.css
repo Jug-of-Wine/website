@@ -1,0 +1,82 @@
+.top{
+    background: url(../../../image/z_top_bj.jpg) repeat-x;
+    height: 33px;
+    line-height: 33px;   
+}
+.top_w{
+    margin: 0 auto;
+    height: 33px;
+    width: 1100px;
+    overflow: hidden;
+}
+.top .top_left{
+	float: left;
+}
+.top .top_right{
+	float: right;
+}
+.top .top_left span{
+	display: inline-block;
+}
+.top .top_left .top_left_logo{
+	float: left;
+	margin: 0 13px 0 0;
+	background: url(../../../image/z_jlt.png) 0 0;
+}
+.top .top_left .top_left_logo a{
+	display: block;
+	width: 68px;
+	height: 31px;
+}
+.top .top_left .top_left_name{
+	float: left;
+	margin: 0 10px;
+	padding: 0 15px 0 0;
+	height: 31px;
+	background: url(../../../image/z_jlt.png) right 0 no-repeat;
+}
+.top .top_left .top_left_name a{
+	display: block;
+	padding: 0 0 0 15px;
+	height: 31px;
+	color: #fff;
+	background: url(../../../image/z_jlt.png) -185px 0 no-repeat;
+}
+.top .top_left .top_left_category{
+	float: left;
+	margin: 0 0 0 10px;
+}
+.top .top_left .top_left_category a{
+	display: block;
+	width: 39px;
+	height: 31px;
+	background: url(../../../image/z_jlt.png) -80px 0 no-repeat;
+}
+
+.top .top_right .top_right_contact{
+	float: left;
+	height: 33px;
+}
+.top .top_right .top_right_contact .right_contact_left{
+	display: inline-block;
+	height: 22px;
+	padding: 0 7px 0 0;
+}
+.top .top_right .top_right_contact .right_contact_right{
+	display: inline-block;
+	height: 22px;
+	padding: 0 0 0 10px;
+	background: url(../../../image/z_jlt.png) -170px -51px no-repeat;
+}
+.top .top_right .top_right_registered{
+	margin: 0 0 0 10px;
+	float: left;
+}
+.top .top_right .top_right_registered a{
+	display: block;
+	width: 47px;
+	height: 33px;
+	text-align: center;
+	color: #fff;
+	background: url(../../../image/z_jlt.png) 0 -50px no-repeat;
+}
