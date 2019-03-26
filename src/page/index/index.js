@@ -27,6 +27,27 @@ $(document).ready(function (){
       },
     });
 
+    //广告切换
+    $('.banner_min').on('click',function(){
+      $(this).hide();
+      $('.banner_max').stop(true,false).animate({
+        height : '100px' 
+      },0,function(){
+        $(this).show().stop(true,false).animate({
+          height : '712px'
+        },2000)
+
+      });
+    });
+    $('.banner_max').on('click',function(){
+      $(this).stop(true,false).animate({
+        height : '100px'
+      },2000,function(){
+        $(this).hide();
+        $('.banner_min').show();
+      })
+    });
+
     //搜索根据头部偏移量显示
     $(window).scroll(function(){
       if($('html,body').scrollTop() > $('.contents').offset().top && !$('.header').hasClass('header_fix')){
@@ -81,16 +102,16 @@ $(document).ready(function (){
       $('.gallery-top').hide().removeClass('swiper-container-x').fadeToggle(1000);
       $('.swiper-wrapper').removeClass('swiper-wrapper-x');
       $('.gallery-thumbs > .swiper-wrapper > .swiper-slide').css({
-        width: '88px'
+        width: '114px'
       });
       $(this).addClass('switchcolor');
       $('.switch_right').removeClass('switchcolor');
       $('.gallery-top img').each(function() {
           $(this).css( {
-            'width' : 1920,'height' : 510
+            width : '1920px',height : '510px'
           });
            $('.gallery-top a').css({
-            'width' : 1920,'height' : 510
+            width : '1920px',height : '510px'
           });
            $('.switch').removeClass('marginleft');
       });

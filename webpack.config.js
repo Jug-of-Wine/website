@@ -20,6 +20,7 @@ var config = {
 	entry : {
 		'common' : './src/page/common/index.js',
 		'index' : './src/page/index/index.js',
+		'ar-list' : './src/page/ar-list/index.js',
 		'user-login' : './src/page/user-login/index.js',
 	},
 	output : {
@@ -107,6 +108,7 @@ var config = {
 	plugins : [
 		new ExtractTextPlugin("css/[name].css"),
 		new HtmlWebpackPlugin(getHtmlConfig('首页','index')),
+		new HtmlWebpackPlugin(getHtmlConfig('文章列表页','ar-list')),
 		new HtmlWebpackPlugin(getHtmlConfig('用户登录','user-login')),
 	],
 	resolve : {
